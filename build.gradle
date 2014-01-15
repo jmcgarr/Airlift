@@ -1,25 +1,27 @@
-buildscript {
+/*buildscript {
     repositories {
         mavenCentral()
     }
 
     dependencies {
- //       classpath 'com.google.appengine:gradle-appengine-plugin:1.8.6'
+        classpath 'com.google.appengine:gradle-appengine-plugin:1.8.7'
     }
 }
-
+*/
 apply plugin: "java"
-
-configurations {
-
-}
+//apply plugin: 'appengine'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    //appengineSdk 'com.google.appengine:appengine-java-sdk:1.8.6'
+//    appengineSdk 'com.google.appengine:appengine-java-sdk:1.8.9'
 
+    compile 'javax.servlet:servlet-api:2.5',
+            'org.mozilla:rhino:1.7R4',
+            'com.google.appengine:appengine-java-sdk:1.8.9'
+
+    testCompile 'junit:junit:3.8.1'
 
 }
