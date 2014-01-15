@@ -1,1 +1,0 @@
-$modifier, type, name:{m,t,n | $m$ $t$ _$n$}; separator=", "$

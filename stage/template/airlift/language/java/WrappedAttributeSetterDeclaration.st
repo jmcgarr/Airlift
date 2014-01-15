@@ -1,1 +1,0 @@
-$scope, type, wrappedObjectName, name, setterName:{s, t, w, n, sn | $s$ void $sn$($t$ _$n$) \{ $w$.$sn$(_$n$); \} }; separator="\n"$

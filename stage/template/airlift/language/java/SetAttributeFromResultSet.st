@@ -1,1 +1,0 @@
-$lowerCaseClassName, name, setterName, resultSetGetterName:{l, n, s, r | $l$.$s$(hannibal.util.DatabaseUtil.$r$(_resultSet, "$n$"));}; separator="\n"$

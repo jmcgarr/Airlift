@@ -1,1 +1,0 @@
-$lowerCaseClassName, getterName:{l, g | $l$.$g$()}; separator=", "$
