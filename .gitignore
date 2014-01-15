@@ -15,3 +15,5 @@ stage
 stage/**/*
 workspace
 workspace/**/*
+.idea/
+*.iml
